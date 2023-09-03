@@ -1,0 +1,19 @@
+{
+  "name": "web-randomnumberwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pickernumberweb.js",
+  "scripts": {
+    "start": "node pickernumberweb.js",
+    "test": "start http://localhost:8080 & nodemon -w . -w ./*.* pickernumberweb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1"
+  }
+}
