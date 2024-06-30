@@ -53,8 +53,8 @@ function getCurrentDateTime() {
 }
 
 async function checknum(number){
-    const data = await axios.get(`https://numbercheck.tierkun.online/checkNumberStatus?number=`+number); //API VALIDATOR WA
-    return data.data.status.canReceiveMessage
+    const data = await axios.get(`https://numbercheck.tierkun.my.id/api/v1/checknumber/`+number); //API VALIDATOR WA
+    return data.data.result
   }
 
 function konversiDetikKeFormatWaktu(detik) {
